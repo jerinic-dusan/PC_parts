@@ -3,6 +3,9 @@
 ## Overview
 
 
+## Screenshots
+<img src="email.png">
+
 ## Non-commercial use
 This app is my personal project and it does not have direct or indirect income-generating use. It will not be marketed or sold.
 
