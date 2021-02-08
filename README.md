@@ -1,5 +1,17 @@
 # PC_parts
 
+## Technologies
+Technologies / tools used in this project were: 
+
+• web scraping, 
+
+• api calling, 
+
+• text summarization,
+
+• mail sending
+
+
 ## Overview
 This is a script that scrapes data from given pcpartpicker websites, it fetches related news for wanted products and does a text summarization for top news. All of this data is then sent by email or displayed in a console. 
 
@@ -42,6 +54,10 @@ Data is then formated and sent by email using smtplib library. Screenshot provid
 
 ## Screenshots
 <img src="email.png">
+
+## Time invested
+This project took around 4 hours of consistent work to be completed.
+
 
 ## Non-commercial use
 This script is my personal project and it does not have direct or indirect income-generating use. It will not be marketed or sold.
