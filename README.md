@@ -1,9 +1,9 @@
 # PC_parts
 
 ## Overview
-This is a script that scrapes data from given pcpartpicker websites, it fetches related news for wanted products and does a text summarization for top news. All of this data is then sent by email or displayed in console. 
+This is a script that scrapes data from given pcpartpicker websites, it fetches related news for wanted products and does a text summarization for top news. All of this data is then sent by email or displayed in a console. 
 
-• Script starts by parsing input file products.json that looks like this. Links inside are used to scrape best prices from vendors that currently have that item in stock. This data is saved for later use.
+• Script starts by parsing input file products.json. Links inside are used to scrape best prices from vendors that currently have that item in stock. Product names will be used for related news fetching.
 File example:
 ```
 [
@@ -27,9 +27,9 @@ File example:
 }
 ```
 
-• Last part of the script was the implementation of text summarization using NLP (Natural Language Processing). This is done by cleaning up and extracting sentences from each news description. Then we calculate number of occurences for each word that is cleaned up, longer than 2 characters and not part of stop words. We get biggest occurence number and devide all other occurences by it to get frequency for each word. Sentence score is calculated by adding word frequency if word is present in the sentence. Sentence with biggest score is the text summarization.
+• Last part of the script was the implementation of text summarization using NLP (Natural Language Processing). This is done by cleaning up and extracting sentences from each news description. Then we calculate number of occurrences for each word that is cleaned up, longer than 2 characters and not part of stop words. We get biggest occurrence number and devide all other occurrences by it to get frequency for each word. Sentence score is calculated by adding word frequency if word is present in the sentence. Sentence with biggest score is the text summarization.
 
-• All of this data is stored in a dictionary and is then displayed in console or sent by mail.
+• All of this data is stored in a dictionary and is then displayed in a console or sent by mail.
 If user chooses to get this data by mail, he/she needs to provide email.json file that looks like this:
 ```
 {
