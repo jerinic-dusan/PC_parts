@@ -64,5 +64,4 @@ This script is my personal project and it does not have direct or indirect incom
 
 ## Links
 * [GitHub](https://github.com/jerinic-dusan)
-* [Facebook](https://www.facebook.com/dusan.jerinic.7/)
-* [Instagram](https://www.instagram.com/jerinic_/)
+* [LinkedIn](https://www.linkedin.com/in/dusan-jerinic/)
